@@ -772,16 +772,7 @@ button{
         padding-left: 50%;
         transform: translate(-22%,4%);
     }
-    .title__block__service {
-        width: 100%;
-        /* text-align: center; */
-        display: flex;
-        height: 50%;
-        justify-content: flex-start;
-        /* padding-left: 11rem; */
-        /* padding-right: 9rem; */
-        padding: 0px 28%;
-    }
+    
 }
 @media only screen and (max-width: 500px){
     .nav__block__service ul li{
@@ -798,7 +789,18 @@ button{
         padding-top: 5rem;
     }
 }
-
+@media only screen and (max-width: 376px){
+    .title__block__service {
+        width: 100%;
+        /* text-align: center; */
+        display: flex;
+        height: 50%;
+        justify-content: flex-start;
+        /* padding-left: 11rem; */
+        /* padding-right: 9rem; */
+        /* padding: 0px 28%; */
+    }
+}
 /* --------------------------- */
 .post{
     /* padding-top: 10rem !important; */
