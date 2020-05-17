@@ -399,9 +399,11 @@ button{
 }
 .block__img__project-text h3{
     opacity: 0.5;
+    color: white;
 }
 .block__img__project-text p{
     opacity: 0.5;
+    color: white;
 }
 .block__img-project:hover .block__img__project-text{
     bottom: 0;
@@ -894,6 +896,9 @@ button{
         width: 15%;
         justify-content: flex-start;
     }
+    .img__block__post{
+        bottom: -80px;
+    }
 }
 @media only screen and (max-width: 500px){
     .post__big__title{
@@ -904,7 +909,7 @@ button{
         justify-content: flex-start;
     }
     .img__block__post{
-        bottom: -100px;
+        bottom: -80px;
     }
     .post__big__title h1{
         padding-left: 1.2rem;
