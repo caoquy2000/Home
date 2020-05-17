@@ -438,6 +438,7 @@ button{
 @media only screen and (max-width: 500px){
     .project__text h1{
         width: 70%;
+        padding-left: 1.2rem;
     }
     .text__btn__plus{
         width: 30%;
@@ -770,7 +771,7 @@ button{
     }
     .nav__block__service{
         padding-left: 50%;
-        transform: translate(-22%,4%);
+        transform: translate(-23%,4%);
     }
     
 }
@@ -779,7 +780,7 @@ button{
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 14rem;
+        width: 16rem;
         height: 2rem;
     }
     .icon{
@@ -788,6 +789,7 @@ button{
     .service__detail{
         padding-top: 5rem;
     }
+  
 }
 @media only screen and (max-width: 376px){
     .title__block__service {
@@ -903,6 +905,9 @@ button{
     }
     .img__block__post{
         bottom: -100px;
+    }
+    .post__big__title h1{
+        padding-left: 1.2rem;
     }
 }
 
