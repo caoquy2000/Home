@@ -925,7 +925,11 @@ button{
         bottom: -30%;
     }
 }
-
+@media only screen and (max-width: 280px){
+    .img__block__post{
+        bottom: -60%;
+    }
+}
 
 /* ------------------- */
 .footer{
